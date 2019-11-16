@@ -1,0 +1,7 @@
+{
+  "LangridgeS": {
+    "localRepo": "data/player_repositories/LangridgeS",
+    "name": "Scott Langridge",
+    "remoteRepo": "https://github.com/ScottLangridge/Advent-of-Code-2019"
+  }
+}
