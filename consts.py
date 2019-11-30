@@ -1,9 +1,11 @@
 # General
 YEAR = 2019
+INDEX_PATH = 'resources/index.html'
 
 # File structure
-PLAYERS_JSON = "data/json/players.json"
-PUZZLES_JSON = "data/json/puzzles.json"
+PLAYERS_JSON = 'data/json/players.json'
+PUZZLES_JSON = 'data/json/puzzles.json'
+LEADERBOARD_TEMPLATE = 'resources/leaderboard_template.html'
 REPO_FOLDER = 'data/player_repositories'
 
 # AOC Interface
