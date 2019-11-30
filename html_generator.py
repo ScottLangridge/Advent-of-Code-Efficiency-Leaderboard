@@ -3,8 +3,8 @@ from players_interface import PlayersInterface
 
 
 class HTMLGenerator:
-    def __init__(self):
-        self.players = PlayersInterface().players
+    def __init__(self, players_interface):
+        self.players = players_interface
 
         with open(LEADERBOARD_TEMPLATE, 'r') as f:
             self.leaderboard_template = f.read()

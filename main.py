@@ -4,9 +4,9 @@ from solution_timer import SolutionTimer
 
 
 def main():
-    timer = SolutionTimer()
     players = PlayersInterface().players
-    html_gen = HTMLGenerator()
+    timer = SolutionTimer(players)
+    html_gen = HTMLGenerator(players)
 
     while True:
         for player in players.values():

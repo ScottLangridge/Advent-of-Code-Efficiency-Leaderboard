@@ -1,4 +1,432 @@
 {
+  "ChhungE": {
+    "localRepo": "data/player_repositories/ChhungE",
+    "name": "Ed Chhung",
+    "remoteRepo": "https://github.com/chhunge/AOC_2019_Template",
+    "times": {
+      "1": {
+        "1": null,
+        "2": null
+      },
+      "10": {
+        "1": null,
+        "2": null
+      },
+      "11": {
+        "1": null,
+        "2": null
+      },
+      "12": {
+        "1": null,
+        "2": null
+      },
+      "13": {
+        "1": null,
+        "2": null
+      },
+      "14": {
+        "1": null,
+        "2": null
+      },
+      "15": {
+        "1": null,
+        "2": null
+      },
+      "16": {
+        "1": null,
+        "2": null
+      },
+      "17": {
+        "1": null,
+        "2": null
+      },
+      "18": {
+        "1": null,
+        "2": null
+      },
+      "19": {
+        "1": null,
+        "2": null
+      },
+      "2": {
+        "1": null,
+        "2": null
+      },
+      "20": {
+        "1": null,
+        "2": null
+      },
+      "21": {
+        "1": null,
+        "2": null
+      },
+      "22": {
+        "1": null,
+        "2": null
+      },
+      "23": {
+        "1": null,
+        "2": null
+      },
+      "24": {
+        "1": null,
+        "2": null
+      },
+      "25": {
+        "1": null,
+        "2": null
+      },
+      "3": {
+        "1": null,
+        "2": null
+      },
+      "4": {
+        "1": null,
+        "2": null
+      },
+      "5": {
+        "1": null,
+        "2": null
+      },
+      "6": {
+        "1": null,
+        "2": null
+      },
+      "7": {
+        "1": null,
+        "2": null
+      },
+      "8": {
+        "1": null,
+        "2": null
+      },
+      "9": {
+        "1": null,
+        "2": null
+      }
+    }
+  },
+  "GouldE": {
+    "localRepo": "data/player_repositories/GouldE",
+    "name": "Ed Gould",
+    "remoteRepo": "https://github.com/EdGouldIS/aoc2019",
+    "times": {
+      "1": {
+        "1": null,
+        "2": null
+      },
+      "10": {
+        "1": null,
+        "2": null
+      },
+      "11": {
+        "1": null,
+        "2": null
+      },
+      "12": {
+        "1": null,
+        "2": null
+      },
+      "13": {
+        "1": null,
+        "2": null
+      },
+      "14": {
+        "1": null,
+        "2": null
+      },
+      "15": {
+        "1": null,
+        "2": null
+      },
+      "16": {
+        "1": null,
+        "2": null
+      },
+      "17": {
+        "1": null,
+        "2": null
+      },
+      "18": {
+        "1": null,
+        "2": null
+      },
+      "19": {
+        "1": null,
+        "2": null
+      },
+      "2": {
+        "1": null,
+        "2": null
+      },
+      "20": {
+        "1": null,
+        "2": null
+      },
+      "21": {
+        "1": null,
+        "2": null
+      },
+      "22": {
+        "1": null,
+        "2": null
+      },
+      "23": {
+        "1": null,
+        "2": null
+      },
+      "24": {
+        "1": null,
+        "2": null
+      },
+      "25": {
+        "1": null,
+        "2": null
+      },
+      "3": {
+        "1": null,
+        "2": null
+      },
+      "4": {
+        "1": null,
+        "2": null
+      },
+      "5": {
+        "1": null,
+        "2": null
+      },
+      "6": {
+        "1": null,
+        "2": null
+      },
+      "7": {
+        "1": null,
+        "2": null
+      },
+      "8": {
+        "1": null,
+        "2": null
+      },
+      "9": {
+        "1": null,
+        "2": null
+      }
+    }
+  },
+  "JohnstoneT": {
+    "localRepo": "data/player_repositories/JohnstoneT",
+    "name": "John Tomstone",
+    "remoteRepo": "https://github.com/TomJohnstone25/AOC2019",
+    "times": {
+      "1": {
+        "1": null,
+        "2": null
+      },
+      "10": {
+        "1": null,
+        "2": null
+      },
+      "11": {
+        "1": null,
+        "2": null
+      },
+      "12": {
+        "1": null,
+        "2": null
+      },
+      "13": {
+        "1": null,
+        "2": null
+      },
+      "14": {
+        "1": null,
+        "2": null
+      },
+      "15": {
+        "1": null,
+        "2": null
+      },
+      "16": {
+        "1": null,
+        "2": null
+      },
+      "17": {
+        "1": null,
+        "2": null
+      },
+      "18": {
+        "1": null,
+        "2": null
+      },
+      "19": {
+        "1": null,
+        "2": null
+      },
+      "2": {
+        "1": null,
+        "2": null
+      },
+      "20": {
+        "1": null,
+        "2": null
+      },
+      "21": {
+        "1": null,
+        "2": null
+      },
+      "22": {
+        "1": null,
+        "2": null
+      },
+      "23": {
+        "1": null,
+        "2": null
+      },
+      "24": {
+        "1": null,
+        "2": null
+      },
+      "25": {
+        "1": null,
+        "2": null
+      },
+      "3": {
+        "1": null,
+        "2": null
+      },
+      "4": {
+        "1": null,
+        "2": null
+      },
+      "5": {
+        "1": null,
+        "2": null
+      },
+      "6": {
+        "1": null,
+        "2": null
+      },
+      "7": {
+        "1": null,
+        "2": null
+      },
+      "8": {
+        "1": null,
+        "2": null
+      },
+      "9": {
+        "1": null,
+        "2": null
+      }
+    }
+  },
+  "KingA": {
+    "localRepo": "data/player_repositories/KingA",
+    "name": "Alice King",
+    "remoteRepo": "https://github.com/kingarj/AOC2019",
+    "times": {
+      "1": {
+        "1": null,
+        "2": null
+      },
+      "10": {
+        "1": null,
+        "2": null
+      },
+      "11": {
+        "1": null,
+        "2": null
+      },
+      "12": {
+        "1": null,
+        "2": null
+      },
+      "13": {
+        "1": null,
+        "2": null
+      },
+      "14": {
+        "1": null,
+        "2": null
+      },
+      "15": {
+        "1": null,
+        "2": null
+      },
+      "16": {
+        "1": null,
+        "2": null
+      },
+      "17": {
+        "1": null,
+        "2": null
+      },
+      "18": {
+        "1": null,
+        "2": null
+      },
+      "19": {
+        "1": null,
+        "2": null
+      },
+      "2": {
+        "1": null,
+        "2": null
+      },
+      "20": {
+        "1": null,
+        "2": null
+      },
+      "21": {
+        "1": null,
+        "2": null
+      },
+      "22": {
+        "1": null,
+        "2": null
+      },
+      "23": {
+        "1": null,
+        "2": null
+      },
+      "24": {
+        "1": null,
+        "2": null
+      },
+      "25": {
+        "1": null,
+        "2": null
+      },
+      "3": {
+        "1": null,
+        "2": null
+      },
+      "4": {
+        "1": null,
+        "2": null
+      },
+      "5": {
+        "1": null,
+        "2": null
+      },
+      "6": {
+        "1": null,
+        "2": null
+      },
+      "7": {
+        "1": null,
+        "2": null
+      },
+      "8": {
+        "1": null,
+        "2": null
+      },
+      "9": {
+        "1": null,
+        "2": null
+      }
+    }
+  },
   "LangridgeS": {
     "localRepo": "data/player_repositories/LangridgeS",
     "name": "Scott Langridge",
@@ -8,38 +436,6 @@
         "1": null,
         "2": null
       },
-      "2": {
-        "1": null,
-        "2": null
-      },
-      "3": {
-        "1": null,
-        "2": null
-      },
-      "4": {
-        "1": null,
-        "2": null
-      },
-      "5": {
-        "1": null,
-        "2": null
-      },
-      "6": {
-        "1": null,
-        "2": null
-      },
-      "7": {
-        "1": null,
-        "2": null
-      },
-      "8": {
-        "1": null,
-        "2": null
-      },
-      "9": {
-        "1": null,
-        "2": null
-      },
       "10": {
         "1": null,
         "2": null
@@ -80,6 +476,10 @@
         "1": null,
         "2": null
       },
+      "2": {
+        "1": null,
+        "2": null
+      },
       "20": {
         "1": null,
         "2": null
@@ -101,21 +501,6 @@
         "2": null
       },
       "25": {
-        "1": null,
-        "2": null
-      }
-    }
-  },
-  "GouldE": {
-    "localRepo": null,
-    "name": "Ed Gould",
-    "remoteRepo": "https://github.com/EdGouldIS/aoc2019",
-    "times": {
-      "1": {
-        "1": null,
-        "2": null
-      },
-      "2": {
         "1": null,
         "2": null
       },
@@ -144,398 +529,13 @@
         "2": null
       },
       "9": {
-        "1": null,
-        "2": null
-      },
-      "10": {
-        "1": null,
-        "2": null
-      },
-      "11": {
-        "1": null,
-        "2": null
-      },
-      "12": {
-        "1": null,
-        "2": null
-      },
-      "13": {
-        "1": null,
-        "2": null
-      },
-      "14": {
-        "1": null,
-        "2": null
-      },
-      "15": {
-        "1": null,
-        "2": null
-      },
-      "16": {
-        "1": null,
-        "2": null
-      },
-      "17": {
-        "1": null,
-        "2": null
-      },
-      "18": {
-        "1": null,
-        "2": null
-      },
-      "19": {
-        "1": null,
-        "2": null
-      },
-      "20": {
-        "1": null,
-        "2": null
-      },
-      "21": {
-        "1": null,
-        "2": null
-      },
-      "22": {
-        "1": null,
-        "2": null
-      },
-      "23": {
-        "1": null,
-        "2": null
-      },
-      "24": {
-        "1": null,
-        "2": null
-      },
-      "25": {
-        "1": null,
-        "2": null
-      }
-    }
-  },
-  "JohnstoneT": {
-    "localRepo": null,
-    "name": "John Tomstone",
-    "remoteRepo": "https://github.com/TomJohnstone25/AOC2019",
-    "times": {
-      "1": {
-        "1": null,
-        "2": null
-      },
-      "2": {
-        "1": null,
-        "2": null
-      },
-      "3": {
-        "1": null,
-        "2": null
-      },
-      "4": {
-        "1": null,
-        "2": null
-      },
-      "5": {
-        "1": null,
-        "2": null
-      },
-      "6": {
-        "1": null,
-        "2": null
-      },
-      "7": {
-        "1": null,
-        "2": null
-      },
-      "8": {
-        "1": null,
-        "2": null
-      },
-      "9": {
-        "1": null,
-        "2": null
-      },
-      "10": {
-        "1": null,
-        "2": null
-      },
-      "11": {
-        "1": null,
-        "2": null
-      },
-      "12": {
-        "1": null,
-        "2": null
-      },
-      "13": {
-        "1": null,
-        "2": null
-      },
-      "14": {
-        "1": null,
-        "2": null
-      },
-      "15": {
-        "1": null,
-        "2": null
-      },
-      "16": {
-        "1": null,
-        "2": null
-      },
-      "17": {
-        "1": null,
-        "2": null
-      },
-      "18": {
-        "1": null,
-        "2": null
-      },
-      "19": {
-        "1": null,
-        "2": null
-      },
-      "20": {
-        "1": null,
-        "2": null
-      },
-      "21": {
-        "1": null,
-        "2": null
-      },
-      "22": {
-        "1": null,
-        "2": null
-      },
-      "23": {
-        "1": null,
-        "2": null
-      },
-      "24": {
-        "1": null,
-        "2": null
-      },
-      "25": {
-        "1": null,
-        "2": null
-      }
-    }
-  },
-  "KingA": {
-    "localRepo": null,
-    "name": "Alice King",
-    "remoteRepo": "https://github.com/kingarj/AOC2019",
-    "times": {
-      "1": {
-        "1": null,
-        "2": null
-      },
-      "2": {
-        "1": null,
-        "2": null
-      },
-      "3": {
-        "1": null,
-        "2": null
-      },
-      "4": {
-        "1": null,
-        "2": null
-      },
-      "5": {
-        "1": null,
-        "2": null
-      },
-      "6": {
-        "1": null,
-        "2": null
-      },
-      "7": {
-        "1": null,
-        "2": null
-      },
-      "8": {
-        "1": null,
-        "2": null
-      },
-      "9": {
-        "1": null,
-        "2": null
-      },
-      "10": {
-        "1": null,
-        "2": null
-      },
-      "11": {
-        "1": null,
-        "2": null
-      },
-      "12": {
-        "1": null,
-        "2": null
-      },
-      "13": {
-        "1": null,
-        "2": null
-      },
-      "14": {
-        "1": null,
-        "2": null
-      },
-      "15": {
-        "1": null,
-        "2": null
-      },
-      "16": {
-        "1": null,
-        "2": null
-      },
-      "17": {
-        "1": null,
-        "2": null
-      },
-      "18": {
-        "1": null,
-        "2": null
-      },
-      "19": {
-        "1": null,
-        "2": null
-      },
-      "20": {
-        "1": null,
-        "2": null
-      },
-      "21": {
-        "1": null,
-        "2": null
-      },
-      "22": {
-        "1": null,
-        "2": null
-      },
-      "23": {
-        "1": null,
-        "2": null
-      },
-      "24": {
-        "1": null,
-        "2": null
-      },
-      "25": {
-        "1": null,
-        "2": null
-      }
-    }
-  },
-  "StokesT": {
-    "localRepo": null,
-    "name": "Tom Stokes",
-    "remoteRepo": "https://github.com/Thomas-95IS/advent-of-code-2019",
-    "times": {
-      "1": {
-        "1": null,
-        "2": null
-      },
-      "2": {
-        "1": null,
-        "2": null
-      },
-      "3": {
-        "1": null,
-        "2": null
-      },
-      "4": {
-        "1": null,
-        "2": null
-      },
-      "5": {
-        "1": null,
-        "2": null
-      },
-      "6": {
-        "1": null,
-        "2": null
-      },
-      "7": {
-        "1": null,
-        "2": null
-      },
-      "8": {
-        "1": null,
-        "2": null
-      },
-      "9": {
-        "1": null,
-        "2": null
-      },
-      "10": {
-        "1": null,
-        "2": null
-      },
-      "11": {
-        "1": null,
-        "2": null
-      },
-      "12": {
-        "1": null,
-        "2": null
-      },
-      "13": {
-        "1": null,
-        "2": null
-      },
-      "14": {
-        "1": null,
-        "2": null
-      },
-      "15": {
-        "1": null,
-        "2": null
-      },
-      "16": {
-        "1": null,
-        "2": null
-      },
-      "17": {
-        "1": null,
-        "2": null
-      },
-      "18": {
-        "1": null,
-        "2": null
-      },
-      "19": {
-        "1": null,
-        "2": null
-      },
-      "20": {
-        "1": null,
-        "2": null
-      },
-      "21": {
-        "1": null,
-        "2": null
-      },
-      "22": {
-        "1": null,
-        "2": null
-      },
-      "23": {
-        "1": null,
-        "2": null
-      },
-      "24": {
-        "1": null,
-        "2": null
-      },
-      "25": {
         "1": null,
         "2": null
       }
     }
   },
   "ProctorJ": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/ProctorJ",
     "name": "James Proctor",
     "remoteRepo": "https://github.com/proctorj/AOC19",
     "times": {
@@ -543,38 +543,6 @@
         "1": null,
         "2": null
       },
-      "2": {
-        "1": null,
-        "2": null
-      },
-      "3": {
-        "1": null,
-        "2": null
-      },
-      "4": {
-        "1": null,
-        "2": null
-      },
-      "5": {
-        "1": null,
-        "2": null
-      },
-      "6": {
-        "1": null,
-        "2": null
-      },
-      "7": {
-        "1": null,
-        "2": null
-      },
-      "8": {
-        "1": null,
-        "2": null
-      },
-      "9": {
-        "1": null,
-        "2": null
-      },
       "10": {
         "1": null,
         "2": null
@@ -615,6 +583,10 @@
         "1": null,
         "2": null
       },
+      "2": {
+        "1": null,
+        "2": null
+      },
       "20": {
         "1": null,
         "2": null
@@ -636,21 +608,6 @@
         "2": null
       },
       "25": {
-        "1": null,
-        "2": null
-      }
-    }
-  },
-  "WormleightonZ": {
-    "localRepo": null,
-    "name": "Zakk Wormleighton",
-    "remoteRepo": "https://github.com/ZacharyWormleightonIS/AOC19",
-    "times": {
-      "1": {
-        "1": null,
-        "2": null
-      },
-      "2": {
         "1": null,
         "2": null
       },
@@ -679,77 +636,13 @@
         "2": null
       },
       "9": {
-        "1": null,
-        "2": null
-      },
-      "10": {
-        "1": null,
-        "2": null
-      },
-      "11": {
-        "1": null,
-        "2": null
-      },
-      "12": {
-        "1": null,
-        "2": null
-      },
-      "13": {
-        "1": null,
-        "2": null
-      },
-      "14": {
-        "1": null,
-        "2": null
-      },
-      "15": {
-        "1": null,
-        "2": null
-      },
-      "16": {
-        "1": null,
-        "2": null
-      },
-      "17": {
-        "1": null,
-        "2": null
-      },
-      "18": {
-        "1": null,
-        "2": null
-      },
-      "19": {
-        "1": null,
-        "2": null
-      },
-      "20": {
-        "1": null,
-        "2": null
-      },
-      "21": {
-        "1": null,
-        "2": null
-      },
-      "22": {
-        "1": null,
-        "2": null
-      },
-      "23": {
-        "1": null,
-        "2": null
-      },
-      "24": {
-        "1": null,
-        "2": null
-      },
-      "25": {
         "1": null,
         "2": null
       }
     }
   },
   "RichmondT": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/RichmondT",
     "name": "Tom Richmond",
     "remoteRepo": "https://github.com/trichmond-IS/AOC19",
     "times": {
@@ -757,38 +650,6 @@
         "1": null,
         "2": null
       },
-      "2": {
-        "1": null,
-        "2": null
-      },
-      "3": {
-        "1": null,
-        "2": null
-      },
-      "4": {
-        "1": null,
-        "2": null
-      },
-      "5": {
-        "1": null,
-        "2": null
-      },
-      "6": {
-        "1": null,
-        "2": null
-      },
-      "7": {
-        "1": null,
-        "2": null
-      },
-      "8": {
-        "1": null,
-        "2": null
-      },
-      "9": {
-        "1": null,
-        "2": null
-      },
       "10": {
         "1": null,
         "2": null
@@ -829,6 +690,10 @@
         "1": null,
         "2": null
       },
+      "2": {
+        "1": null,
+        "2": null
+      },
       "20": {
         "1": null,
         "2": null
@@ -850,49 +715,45 @@
         "2": null
       },
       "25": {
+        "1": null,
+        "2": null
+      },
+      "3": {
+        "1": null,
+        "2": null
+      },
+      "4": {
+        "1": null,
+        "2": null
+      },
+      "5": {
+        "1": null,
+        "2": null
+      },
+      "6": {
+        "1": null,
+        "2": null
+      },
+      "7": {
+        "1": null,
+        "2": null
+      },
+      "8": {
+        "1": null,
+        "2": null
+      },
+      "9": {
         "1": null,
         "2": null
       }
     }
   },
-  "ChhungE": {
-    "localRepo": null,
-    "name": "Ed Chhung",
-    "remoteRepo": "https://github.com/chhunge/AOC_2019_Template",
+  "StokesT": {
+    "localRepo": "data/player_repositories/StokesT",
+    "name": "Tom Stokes",
+    "remoteRepo": "https://github.com/Thomas-95IS/advent-of-code-2019",
     "times": {
       "1": {
-        "1": null,
-        "2": null
-      },
-      "2": {
-        "1": null,
-        "2": null
-      },
-      "3": {
-        "1": null,
-        "2": null
-      },
-      "4": {
-        "1": null,
-        "2": null
-      },
-      "5": {
-        "1": null,
-        "2": null
-      },
-      "6": {
-        "1": null,
-        "2": null
-      },
-      "7": {
-        "1": null,
-        "2": null
-      },
-      "8": {
-        "1": null,
-        "2": null
-      },
-      "9": {
         "1": null,
         "2": null
       },
@@ -936,6 +797,10 @@
         "1": null,
         "2": null
       },
+      "2": {
+        "1": null,
+        "2": null
+      },
       "20": {
         "1": null,
         "2": null
@@ -957,6 +822,141 @@
         "2": null
       },
       "25": {
+        "1": null,
+        "2": null
+      },
+      "3": {
+        "1": null,
+        "2": null
+      },
+      "4": {
+        "1": null,
+        "2": null
+      },
+      "5": {
+        "1": null,
+        "2": null
+      },
+      "6": {
+        "1": null,
+        "2": null
+      },
+      "7": {
+        "1": null,
+        "2": null
+      },
+      "8": {
+        "1": null,
+        "2": null
+      },
+      "9": {
+        "1": null,
+        "2": null
+      }
+    }
+  },
+  "WormleightonZ": {
+    "localRepo": "data/player_repositories/WormleightonZ",
+    "name": "Zakk Wormleighton",
+    "remoteRepo": "https://github.com/ZacharyWormleightonIS/AOC19",
+    "times": {
+      "1": {
+        "1": null,
+        "2": null
+      },
+      "10": {
+        "1": null,
+        "2": null
+      },
+      "11": {
+        "1": null,
+        "2": null
+      },
+      "12": {
+        "1": null,
+        "2": null
+      },
+      "13": {
+        "1": null,
+        "2": null
+      },
+      "14": {
+        "1": null,
+        "2": null
+      },
+      "15": {
+        "1": null,
+        "2": null
+      },
+      "16": {
+        "1": null,
+        "2": null
+      },
+      "17": {
+        "1": null,
+        "2": null
+      },
+      "18": {
+        "1": null,
+        "2": null
+      },
+      "19": {
+        "1": null,
+        "2": null
+      },
+      "2": {
+        "1": null,
+        "2": null
+      },
+      "20": {
+        "1": null,
+        "2": null
+      },
+      "21": {
+        "1": null,
+        "2": null
+      },
+      "22": {
+        "1": null,
+        "2": null
+      },
+      "23": {
+        "1": null,
+        "2": null
+      },
+      "24": {
+        "1": null,
+        "2": null
+      },
+      "25": {
+        "1": null,
+        "2": null
+      },
+      "3": {
+        "1": null,
+        "2": null
+      },
+      "4": {
+        "1": null,
+        "2": null
+      },
+      "5": {
+        "1": null,
+        "2": null
+      },
+      "6": {
+        "1": null,
+        "2": null
+      },
+      "7": {
+        "1": null,
+        "2": null
+      },
+      "8": {
+        "1": null,
+        "2": null
+      },
+      "9": {
         "1": null,
         "2": null
       }

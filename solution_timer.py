@@ -9,14 +9,14 @@ from consts import YEAR
 
 # noinspection PyBroadException
 class SolutionTimer:
-    def __init__(self):
+    def __init__(self, players_interface):
         self.aoc_interface = AOCInterface()
-        self.players_interface = PlayersInterface()
+        self.players_interface = players_interface
         self.solution_filenames = []
 
     def time_solutions(self, pid):
         # Build map of solution filenames to paths of players corresponding solutions
-        player = self.players_interface.players[pid]
+        player = self.players_interface[pid]
         player_solution_files = self.list_files(player)
 
         # Time each file
