@@ -2,7 +2,7 @@ import json
 
 import requests
 
-from consts import PUZZLES_JSON, ANSWER_PAGE_URL, SESSION_COOKIE, SUCCESS_MSG, FAIL_MSG
+from consts import PUZZLES_JSON, ANSWER_PAGE_URL, INPUT_PAGE_URL, SESSION_COOKIE, SUCCESS_MSG, FAIL_MSG
 
 
 class AOCInterface:
@@ -20,12 +20,21 @@ class AOCInterface:
         with open(filepath, 'w') as f:
             f.write(raw_json)
 
+    def get_input(self, year, day):
+        if self.puzzles[str(day)]['input'] is None:
+            url = INPUT_PAGE_URL % (str(year), str(day))
+            headers = {'cookie': 'session=%s' % SESSION_COOKIE}
+            response = requests.post(url, headers=headers).text
+            self.puzzles[str(day)]['input'] = response
+            self.save_json()
+        else:
+            return self.puzzles[str(day)]['input']
+
     def verify_solution(self, year, day, level, answer):
         if self.puzzles[str(day)]['answer'] is None:
             url = ANSWER_PAGE_URL % (str(year), str(day))
             form_data = {"level": level, "answer": answer}
             headers = {'cookie': 'session=%s' % SESSION_COOKIE}
-
             response = requests.post(url, form_data, headers=headers).text
 
             if response.find(SUCCESS_MSG) != -1:
@@ -37,6 +46,8 @@ class AOCInterface:
             else:
                 raise Exception("Verification of solution failed; Neither success msg nor fail msg were returned.")
 
-        elif self.puzzles[str(day)]['answer'] == answer:
-            return True
-        return False
+        else:
+            if self.puzzles[str(day)]['answer'] == answer:
+                return True
+            else:
+                return False
