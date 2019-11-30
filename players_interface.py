@@ -24,7 +24,7 @@ class PlayersInterface:
     def save_players(self):
         player_dict = {}
         for i in self.players.values():
-            player_dict[i.pid] = {'name': i.name, 'remoteRepo': i.remote, 'localRepo': i.local}
+            player_dict[i.pid] = {'name': i.name, 'remoteRepo': i.remote, 'localRepo': i.local, 'times': i.times}
 
         raw_json = json.dumps(player_dict, sort_keys=True, indent=2)
         with open(PLAYERS_JSON, 'w') as f:

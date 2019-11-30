@@ -31,23 +31,25 @@ class AOCInterface:
             return self.puzzles[str(day)]['input']
 
     def verify_solution(self, year, day, level, answer):
-        if self.puzzles[str(day)]['answer'] is None:
+        if self.puzzles[str(day)]['answer'][str(level)] is not None:
+            # If there is already an answer in memory use that one
+            if self.puzzles[str(day)]['answer'][str(level)] == answer:
+                return True
+            else:
+                return False
+        else:
+            # Get response from AOC
             url = ANSWER_PAGE_URL % (str(year), str(day))
             form_data = {"level": level, "answer": answer}
             headers = {'cookie': 'session=%s' % SESSION_COOKIE}
             response = requests.post(url, form_data, headers=headers).text
 
+            # Determine whether or not answer is correct
             if response.find(SUCCESS_MSG) != -1:
-                self.puzzles[str(day)]['answer'] = answer
+                self.puzzles[str(day)]['answer'][str(level)] = answer
                 self.save_json()
                 return True
             elif response.find(FAIL_MSG):
                 return False
             else:
                 raise Exception("Verification of solution failed; Neither success msg nor fail msg were returned.")
-
-        else:
-            if self.puzzles[str(day)]['answer'] == answer:
-                return True
-            else:
-                return False

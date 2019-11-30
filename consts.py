@@ -1,3 +1,6 @@
+# General
+YEAR = 2019
+
 # File structure
 PLAYERS_JSON = "data/json/players.json"
 PUZZLES_JSON = "data/json/puzzles.json"
