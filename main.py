@@ -8,10 +8,10 @@ def main():
     timer = SolutionTimer(players)
     html_gen = HTMLGenerator(players)
 
-    while True:
-        for player in players.values():
-            timer.time_solutions(player.pid)
-            html_gen.update_leaderboard()
+    #while True:
+    for player in players.values():
+        timer.time_solutions(player.pid)
+        html_gen.update_leaderboard()
 
 
 if __name__ == '__main__':
