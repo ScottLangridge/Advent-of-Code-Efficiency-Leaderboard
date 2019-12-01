@@ -11,6 +11,6 @@ REPO_FOLDER = 'data/player_repositories'
 # AOC Interface
 INPUT_PAGE_URL = 'https://adventofcode.com/%s/day/%s/input'
 ANSWER_PAGE_URL = 'https://adventofcode.com/%s/day/%s/answer'
-SESSION_COOKIE = '53616c7465645f5f13eae7e19ac2a73be79250bdabce405dae5b56366fdb789ad16c7c7ea9a9f26cece2c0f19356fd9a'
+SESSION_COOKIE = '53616c7465645f5f77a3236c6aeff3fafec21a68354d6b7a8b82b858e059eb4c9c8fa5cd21ea580ef966042d97926d65'
 SUCCESS_MSG = "That's the right answer!"
 FAIL_MSG = "That's not the right answer"
