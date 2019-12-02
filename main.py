@@ -1,4 +1,4 @@
-from datetime import datetime
+import datetime
 from html_generator import HTMLGenerator
 from players_interface import PlayersInterface
 from solution_timer import SolutionTimer

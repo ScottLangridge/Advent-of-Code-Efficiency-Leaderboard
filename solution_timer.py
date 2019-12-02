@@ -1,3 +1,4 @@
+import datetime
 import os
 import importlib.util
 from time import time
@@ -12,6 +13,9 @@ class SolutionTimer:
         self.aoc_interface = AOCInterface()
         self.players_interface = players_interface
         self.solution_filenames = []
+        td = datetime.timedelta(hours=-5, minutes=-5)
+        tz = datetime.timezone(td)
+        self.dt = datetime.datetime.now(tz)
 
     def time_solutions(self, pid):
         # Build map of solution filenames to paths of players corresponding solutions
@@ -22,7 +26,7 @@ class SolutionTimer:
             return
 
         # Time each file
-        for day in range(1, 26):
+        for day in range(1, self.dt.day + 1):
             for level in [1, 2]:
                 try:
                     # Run solution
@@ -59,7 +63,7 @@ class SolutionTimer:
         spec.loader.exec_module(imported_module)
 
         start_time = time()
-        result = imported_module.main(puzzle_input)
+        result = str(imported_module.main(puzzle_input))
         end_time = time()
 
         return result, end_time - start_time

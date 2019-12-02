@@ -24,6 +24,7 @@ class AOCInterface:
         if self.puzzles[str(day)]['input'] is None:
             url = INPUT_PAGE_URL % (str(year), str(day))
             headers = {'cookie': 'session=%s' % SESSION_COOKIE}
+            print('MAKING REQUEST TO AOC')
             response = requests.post(url, headers=headers).text
             response = response.strip('\n')
             self.puzzles[str(day)]['input'] = response
@@ -42,6 +43,7 @@ class AOCInterface:
             url = ANSWER_PAGE_URL % (str(year), str(day))
             form_data = {"level": level, "answer": answer}
             headers = {'cookie': 'session=%s' % SESSION_COOKIE}
+            print('MAKING REQUEST TO AOC')
             response = requests.post(url, form_data, headers=headers).text
 
             # Determine whether or not answer is correct
