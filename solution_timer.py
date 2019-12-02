@@ -24,19 +24,19 @@ class SolutionTimer:
         # Time each file
         for day in range(1, 26):
             for level in [1, 2]:
-                # try:
-                # Run solution
-                file_key = self.gen_filename(day, level)
-                path = player_solution_files[file_key]
-                puzzle_input = self.aoc_interface.get_input(YEAR, day)
-                result, run_time = self.time_main(path, puzzle_input)
+                try:
+                    # Run solution
+                    file_key = self.gen_filename(day, level)
+                    path = player_solution_files[file_key]
+                    puzzle_input = self.aoc_interface.get_input(YEAR, day)
+                    result, run_time = self.time_main(path, puzzle_input)
 
-                # If solution is correct, record it
-                if self.aoc_interface.verify_solution(str(YEAR), str(day), level, result):
-                    player.set_time(run_time, str(day), str(level))
-                    self.players_interface.save_players()
-                # except Exception as e:
-                #     print(e)
+                    # If solution is correct, record it
+                    if self.aoc_interface.verify_solution(str(YEAR), str(day), level, result):
+                        player.set_time(run_time, str(day), str(level))
+                        self.players_interface.save_players()
+                except Exception as e:
+                    pass
 
     @staticmethod
     def gen_filename(day, level):

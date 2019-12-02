@@ -1,21 +1,28 @@
+from datetime import datetime
 from html_generator import HTMLGenerator
 from players_interface import PlayersInterface
 from solution_timer import SolutionTimer
 
 
 def main():
-    print('getting players')
     players_interface = PlayersInterface()
-    print('setting up timer')
     timer = SolutionTimer(players_interface)
-    print('setting up htmlgen')
     html_gen = HTMLGenerator(players_interface)
 
-    #while True:
-    for player in players_interface.players.values():
-        print('Timing Player:', player.name)
-        timer.time_solutions(player.pid)
-        print('Generating Html')
+    while True:
+        print(datetime.now())
+
+        # Pull Repos
+        print('  Pulling Repos')
+        players_interface.pull_all_repos()
+
+        # Time All Players
+        print('  Timing Players')
+        for player in players_interface.players.values():
+            timer.time_solutions(player.pid)
+
+        # Record Times
+        print('  Updating Leaderboard\n')
         html_gen.update_leaderboard()
 
 
