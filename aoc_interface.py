@@ -25,10 +25,10 @@ class AOCInterface:
             url = INPUT_PAGE_URL % (str(year), str(day))
             headers = {'cookie': 'session=%s' % SESSION_COOKIE}
             response = requests.post(url, headers=headers).text
+            response = response.strip('\n')
             self.puzzles[str(day)]['input'] = response
             self.save_json()
-        else:
-            return self.puzzles[str(day)]['input']
+        return self.puzzles[str(day)]['input']
 
     def verify_solution(self, year, day, level, answer):
         if self.puzzles[str(day)]['answer'][str(level)] is not None:

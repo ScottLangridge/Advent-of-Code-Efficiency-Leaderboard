@@ -4,7 +4,7 @@ from players_interface import PlayersInterface
 
 class HTMLGenerator:
     def __init__(self, players_interface):
-        self.players = players_interface
+        self.players_interface = players_interface
 
         with open(LEADERBOARD_TEMPLATE, 'r') as f:
             self.leaderboard_template = f.read()
@@ -26,7 +26,7 @@ class HTMLGenerator:
     def gen_rankings(self, day, level):
         # Collect and sort times
         raw_times = []
-        for player in self.players.values():
+        for player in self.players_interface.players.values():
             player_name = player.name
             solve_time = player.get_time(str(day), str(level))
             if solve_time is not None:
