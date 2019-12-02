@@ -1,6 +1,6 @@
 # General
 YEAR = 2019
-INDEX_PATH = 'resources/index.html'
+INDEX_PATH = 'index.html'
 
 # File structure
 PLAYERS_JSON = 'data/json/players.json'

@@ -1,6 +1,6 @@
 {
   "ChhungE": {
-    "localRepo": "data/player_repositories/ChhungE",
+    "localRepo": null,
     "name": "Ed Chhung",
     "remoteRepo": "https://github.com/chhunge/AOC_2019_Template",
     "times": {
@@ -107,7 +107,7 @@
     }
   },
   "GouldE": {
-    "localRepo": "data/player_repositories/GouldE",
+    "localRepo": null,
     "name": "Ed Gould",
     "remoteRepo": "https://github.com/EdGouldIS/aoc2019",
     "times": {
@@ -214,7 +214,7 @@
     }
   },
   "JohnstoneT": {
-    "localRepo": "data/player_repositories/JohnstoneT",
+    "localRepo": null,
     "name": "John Tomstone",
     "remoteRepo": "https://github.com/TomJohnstone25/AOC2019",
     "times": {
@@ -321,7 +321,7 @@
     }
   },
   "KingA": {
-    "localRepo": "data/player_repositories/KingA",
+    "localRepo": null,
     "name": "Alice King",
     "remoteRepo": "https://github.com/kingarj/AOC2019",
     "times": {
@@ -428,7 +428,7 @@
     }
   },
   "LangridgeS": {
-    "localRepo": "data/player_repositories/LangridgeS",
+    "localRepo": null,
     "name": "Scott Langridge",
     "remoteRepo": "https://github.com/ScottLangridge/Advent-of-Code-2019",
     "times": {
@@ -535,7 +535,7 @@
     }
   },
   "ProctorJ": {
-    "localRepo": "data/player_repositories/ProctorJ",
+    "localRepo": null,
     "name": "James Proctor",
     "remoteRepo": "https://github.com/proctorj/AOC19",
     "times": {
@@ -642,7 +642,7 @@
     }
   },
   "RichmondT": {
-    "localRepo": "data/player_repositories/RichmondT",
+    "localRepo": null,
     "name": "Tom Richmond",
     "remoteRepo": "https://github.com/trichmond-IS/AOC19",
     "times": {
@@ -749,7 +749,7 @@
     }
   },
   "StokesT": {
-    "localRepo": "data/player_repositories/StokesT",
+    "localRepo": null,
     "name": "Tom Stokes",
     "remoteRepo": "https://github.com/Thomas-95IS/advent-of-code-2019",
     "times": {
@@ -856,7 +856,7 @@
     }
   },
   "WormleightonZ": {
-    "localRepo": "data/player_repositories/WormleightonZ",
+    "localRepo": null,
     "name": "Zakk Wormleighton",
     "remoteRepo": "https://github.com/ZacharyWormleightonIS/AOC19",
     "times": {
