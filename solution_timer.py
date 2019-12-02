@@ -14,8 +14,7 @@ class SolutionTimer:
         self.players_interface = players_interface
         self.solution_filenames = []
         td = datetime.timedelta(hours=-5, minutes=-5)
-        tz = datetime.timezone(td)
-        self.dt = datetime.datetime.now(tz)
+        self.tz = datetime.timezone(td)
 
     def time_solutions(self, pid):
         # Build map of solution filenames to paths of players corresponding solutions
@@ -26,7 +25,8 @@ class SolutionTimer:
             return
 
         # Time each file
-        for day in range(1, self.dt.day + 1):
+        day_of_month = datetime.datetime.now(self.tz).day
+        for day in range(1, day_of_month + 1):
             for level in [1, 2]:
                 try:
                     # Run solution
