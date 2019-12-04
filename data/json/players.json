@@ -1,12 +1,12 @@
 {
   "ChhungE": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/ChhungE",
     "name": "Ed Chhung",
     "remoteRepo": "https://github.com/chhunge/AOC_2019_Template",
     "times": {
       "1": {
-        "1": null,
-        "2": null
+        "1": 6.67572021484375e-05,
+        "2": 0.00047469139099121094
       },
       "10": {
         "1": null,
@@ -107,7 +107,7 @@
     }
   },
   "GouldE": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/GouldE",
     "name": "Ed Gould",
     "remoteRepo": "https://github.com/EdGouldIS/aoc2019",
     "times": {
@@ -214,7 +214,7 @@
     }
   },
   "JohnstoneT": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/JohnstoneT",
     "name": "John Tomstone",
     "remoteRepo": "https://github.com/TomJohnstone25/AOC2019",
     "times": {
@@ -321,7 +321,7 @@
     }
   },
   "KingA": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/KingA",
     "name": "Alice King",
     "remoteRepo": "https://github.com/kingarj/AOC2019",
     "times": {
@@ -428,13 +428,13 @@
     }
   },
   "LangridgeS": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/LangridgeS",
     "name": "Scott Langridge",
     "remoteRepo": "https://github.com/ScottLangridge/Advent-of-Code-2019",
     "times": {
       "1": {
-        "1": 0.0,
-        "2": 0.0
+        "1": 4.482269287109375e-05,
+        "2": 0.0002243518829345703
       },
       "10": {
         "1": null,
@@ -477,8 +477,8 @@
         "2": null
       },
       "2": {
-        "1": 0.0,
-        "2": 0.2794303894042969
+        "1": 7.152557373046875e-05,
+        "2": 0.06180834770202637
       },
       "20": {
         "1": null,
@@ -535,7 +535,7 @@
     }
   },
   "ProctorJ": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/ProctorJ",
     "name": "James Proctor",
     "remoteRepo": "https://github.com/proctorj/AOC19",
     "times": {
@@ -642,7 +642,7 @@
     }
   },
   "RichmondT": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/RichmondT",
     "name": "Tom Richmond",
     "remoteRepo": "https://github.com/trichmond-IS/AOC19",
     "times": {
@@ -749,7 +749,7 @@
     }
   },
   "StokesT": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/StokesT",
     "name": "Tom Stokes",
     "remoteRepo": "https://github.com/Thomas-95IS/advent-of-code-2019",
     "times": {
@@ -856,7 +856,7 @@
     }
   },
   "WormleightonZ": {
-    "localRepo": null,
+    "localRepo": "data/player_repositories/WormleightonZ",
     "name": "Zakk Wormleighton",
     "remoteRepo": "https://github.com/ZacharyWormleightonIS/AOC19",
     "times": {

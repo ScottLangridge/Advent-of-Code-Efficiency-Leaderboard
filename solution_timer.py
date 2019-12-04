@@ -21,9 +21,6 @@ class SolutionTimer:
         player = self.players_interface.players[pid]
         player_solution_files = self.list_files(player)
 
-        if pid != 'LangridgeS':
-            return
-
         # Time each file
         day_of_month = datetime.datetime.now(self.tz).day
         for day in range(1, day_of_month + 1):
