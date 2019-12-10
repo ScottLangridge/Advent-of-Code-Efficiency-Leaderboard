@@ -17,6 +17,9 @@ class SolutionTimer:
         self.tz = datetime.timezone(td)
 
     def time_solutions(self, pid):
+        # Debug print
+        print('Timing', pid)
+
         # Build map of solution filenames to paths of players corresponding solutions
         player = self.players_interface.players[pid]
         player_solution_files = self.list_files(player)
